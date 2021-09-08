@@ -8,7 +8,7 @@ public class RankController {
 	
 	@GetMapping("/rankList.do")
 	public String rank() {
-		System.out.println("=========rank 메서드 실행=========");
+		System.out.println("rank 메서드 실행!!");
 		return "rankList";
 	}
 
